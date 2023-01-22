@@ -1,11 +1,11 @@
-# Indentation refers to the spaces at the beginning of a code line.
-# Python uses indentation to indicate a block of code.
-
-#example:
+x = 5
+if x > 0:
+    print("x is positive")
+    x = x - 1
+    print("x is now", x)
 
 for i in range(5):
     print(i)
 
-# here you can see I have used : instead of {} how it is used in other languages
-# once condition for loops is given we start writing with four space or tab space
-# please read PEP guidlines mentioned in the indentation.md
+def greet(name):
+    print("Hello, ", name)
