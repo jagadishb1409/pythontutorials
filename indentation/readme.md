@@ -30,6 +30,13 @@ Here, the code block "print("Hello, ", name)" is indented, indicating that it is
 
 It's important to note that Python is very strict about indentation and the use of whitespace. Incorrect indentation can cause a IndentationError and result in your code not running as expected. It's best practice to use 4 spaces for indentation and be consistent throughout your code.
 
+Next, let's talk about comments. Comments are used to add notes or explanations to your code, and are ignored by the Python interpreter. Comments in Python are denoted by the '#' symbol and can be added to any line of code.
+
+````python
+# This is a comment
+x = 5 # This is also a comment
+````
+
 Checkout the code here in [indentation.py](https://github.com/jagadishb1409/pythontutorials/blob/main/indentation/indentation.py) file
 
 In conclusion, Python uses indentation to define code blocks and to indicate the level of nesting. It is a key feature that makes Python a clean and readable language. By understanding how indent works
