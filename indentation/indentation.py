@@ -9,3 +9,6 @@ for i in range(5):
 
 def greet(name):
     print("Hello, ", name)
+
+# This is a comment
+x = 5 # This is also a comment
