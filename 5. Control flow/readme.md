@@ -20,6 +20,10 @@ fruits = ["apple", "banana", "cherry"]
 for x in fruits:
     print(x)
 ````
+Output will be:  
+apple  
+banana  
+cherry  
 
 - While Loops: The 'while' loop is used to repeat a block of code as long as the given condition is true.
 
@@ -29,6 +33,12 @@ while i < 6:
     print(i)
     i += 1
 ````
+Output will be:  
+1  
+2  
+3  
+4  
+5  
 
 - Break and Continue: The 'break' and 'continue' statements are used to control the flow of execution within loops. 
 The 'break' statement is used to exit the loop when a certain condition is met, 
@@ -42,6 +52,9 @@ for x in fruits:
         continue
     print(x)
 ````
+Output will be:  
+apple  
+cherry  
 
 It's important to note that control flow statements are used to control the flow of execution in a program and it's very important 
 to use them properly and not to overuse them as they can make the code more complex.
