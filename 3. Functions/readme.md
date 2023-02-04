@@ -148,7 +148,7 @@ Hello, World!
 
 The len() function returns the length of an object, such as a string, list, or tuple. For example:
 
-````pytohn
+````python
 string = "Hello, World!"
 print(len(string))
 ````
