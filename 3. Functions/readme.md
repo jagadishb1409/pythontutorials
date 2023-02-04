@@ -126,6 +126,96 @@ The function checks if `n` is equal to 1, if it is then it returns 1, otherwise 
 It's important to note that when using recursive functions, it's crucial to have a base case or an exit condition, 
 otherwise the function will continue to call itself indefinitely, leading to a stack overflow error.
 
+## Useful inbuilt Python Functions
+
+Python has a wide range of built-in functions and libraries that make it a powerful and versatile language for daily programming. 
+In this section, we'll look at some of the most useful functions that every Python programmer should know.
+
+### print()
+The print() function is one of the most basic and commonly used functions in Python. 
+It simply outputs the given string or variable to the console. For example:
+
+````python
+print("Hello, World!")
+````
+
+Output:
+````
+Hello, World!
+````
+
+### len()
+
+The len() function returns the length of an object, such as a string, list, or tuple. For example:
+
+````pytohn
+string = "Hello, World!"
+print(len(string))
+````
+
+Output:
+````
+13
+````
+
+### range()
+
+The range() function generates a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number. 
+For example:
+
+````python
+for i in range(5):
+    print(i)
+````
+
+Output:
+````
+0
+1
+2
+3
+4
+````
+
+### enumerate()
+
+The enumerate() function adds counter to an iterable and returns it in a form of enumerate object. For example:
+
+````python
+fruits = ["apple", "banana", "cherry"]
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
+````
+
+Output:
+
+```
+0 apple
+1 banana
+2 cherry
+````
+
+### zip()
+
+The zip() function aggregates elements from each of the iterables. For example:
+
+````python
+x = [1, 2, 3]
+y = [4, 5, 6]
+z = [7, 8, 9]
+
+result = zip(x, y, z)
+print(list(result))
+````
+
+Output:
+
+````python
+[(1, 4, 7), (2, 5, 8), (3, 6, 9)]
+````
+These are just a few examples of the many useful functions that Python has to offer. 
+Make sure to explore the Python documentation to discover even more functions and libraries that can help streamline your daily programming tasks.
+
 ## Conclusion
 
 Functions are an essential part of any Python program and provide a way to organize and reuse code. 
