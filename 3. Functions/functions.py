@@ -51,3 +51,24 @@ def factorial(n):
 
 print(factorial(5))  # Output
 
+
+
+string = "Hello, World!"
+print(len(string))
+
+
+for i in range(5):
+    print(i)
+
+fruits = ["apple", "banana", "cherry"]
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
+
+    
+x = [1, 2, 3]
+y = [4, 5, 6]
+z = [7, 8, 9]
+
+result = zip(x, y, z)
+print(list(result))
+
