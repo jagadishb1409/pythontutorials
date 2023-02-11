@@ -42,3 +42,27 @@ print(numbers)
 numbers = [5, 3, 4, 1, 2]
 numbers.sort(reverse=True)
 print(numbers)
+
+list = [1, 2, 3, 4, 5]
+print(3 in list) # True
+print(6 in list) # False
+
+list = [1, 2, 3, 4, 5]
+print(3 not in list) # False
+print(6 not in list) # True
+
+string = "Hello, World!"
+print("Hello" in string) # True
+print("hello" in string) # False
+print("hello" not in string) # True
+
+list = [1, 2, 3, 4, 5]
+list.index(3) # 2
+
+list = [1, 2, 3, 4, 5, 3, 6]
+for i, value in enumerate(list):
+     if value == 3:
+         print(i)
+# 2
+# 5
+
