@@ -158,6 +158,33 @@ print("hello" in string) # False
 print("hello" not in string) # True
 ````
 
+## Finding index of an element using index()
+
+The 'index()' method in Python can be used to find the index of an element in a list. 
+It returns the first index at which the specified value is found. If the specified value is not found in the list, it raises a 'ValueError' exception.
+
+Here's an example of using the 'index()' method to find the index of an element in a list:
+
+````python
+list = [1, 2, 3, 4, 5]
+list.index(3) # 2
+````
+
+In the above example, the 'index()' method returns the index of the first occurrence of the value 3 in the list, which is 2.
+
+If you want to find the index of an element in a list that may have multiple occurrences of the same value, you can use a for loop and the 'enumerate()' function. The 'enumerate()' function takes an iterable object as input and returns an iterator that yields pairs of the form '(index, value)' for each element in the iterable. Here's an example:
+
+````python
+list = [1, 2, 3, 4, 5, 3, 6]
+for i, value in enumerate(list):
+     if value == 3:
+         print(i)
+# 2
+# 5
+````
+
+In this example, the for loop iterates over the elements of the list and uses the 'enumerate()' function to get both the index and value of each element. The 'if' statement inside the loop checks if the current value is equal to '3', and if so, it prints the index. This will find all occurrences of the value '3' in the list.
+
 Conclusion  
 
 In this blog, we have covered the basics of working with lists in Python. Lists are a flexible and dynamic data structure, and they play a crucial role in many programming tasks. By understanding the methods and operations available for working with lists, you can manipulate and manage your data effectively.
