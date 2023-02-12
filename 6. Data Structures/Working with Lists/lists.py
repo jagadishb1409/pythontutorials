@@ -66,3 +66,30 @@ for i, value in enumerate(list):
 # 2
 # 5
 
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+result = list1 + list2
+print(result) # Output: [1, 2, 3, 4, 5, 6]
+
+
+list = [1, 2, 3]
+result = list * 3
+print(result) # Output: [1, 2, 3, 1, 2, 3, 1, 2, 3]
+
+list = [1, 2, 3]
+result = sum(list)
+print(result) # Output: 6
+
+
+list = [1, 2, 3]
+result = sum(list) / len(list)
+print(result) # Output: 2.0
+
+
+list = [1, 2, 3]
+maximum = max(list)
+minimum = min(list)
+print(maximum) # Output: 3
+print(minimum) # Output: 1
+
+
