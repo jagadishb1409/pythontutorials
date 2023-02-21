@@ -50,6 +50,69 @@ for name, age in employee_ages.items():
     print(name, age)
 ````
 
+## Example of a complex looking dictionary
+
+Here's an example of a little complex-looking dictionary in Python
+
+````python
+my_dict = {
+    'fruits': {
+        'apples': {
+            'red': 3,
+            'green': 5,
+            'yellow': 1
+        },
+        'bananas': {
+            'green': 2,
+            'yellow': 7
+        },
+        'oranges': {
+            'navel': 4,
+            'valencia': 6
+        }
+    },
+    'vegetables': {
+        'carrots': {
+            'orange': 8
+        },
+        'spinach': {
+            'green': 9
+        }
+    }
+}
+````
+
+This dictionary has nested dictionaries with various key-value pairs. Here's how it can be debugged:
+
+1. Check for syntax errors: The first step in debugging any Python code is to check for syntax errors. If there is a syntax error in the dictionary, the code will not even run. You can use a Python linter or IDE to check for syntax errors.
+
+2. Print the dictionary: Use the built-in print function to output the contents of the dictionary to the console. This will help you visually inspect the dictionary and check if the keys and values are what you intended them to be.
+
+````python
+print(my_dict)
+````
+
+3. Use the dict method get to access values: If you're having trouble accessing a specific value in the dictionary, use the get method to retrieve it. This method returns None if the key does not exist, which can help you identify issues with misspelled keys or incorrect nesting.
+
+````python
+print(my_dict.get('fruits').get('apples').get('green')) # returns 5
+````
+
+4. Use the dict method keys to list keys: If you're having trouble remembering the structure of the dictionary, use the keys method to list all the keys in a given level of the dictionary.
+
+````python
+print(my_dict.get('fruits').keys()) # returns ['apples', 'bananas', 'oranges']
+````
+
+5. Use the dict method values to list values: If you're having trouble remembering the values of a given key, use the values method to list all the values in a given level of the dictionary.
+
+````python
+print(my_dict.get('fruits').get('apples').values()) # returns [3, 5, 1])
+````
+
+By following these steps, you should be able to effectively debug your complex dictionary in Python.
+
+
 ## Conclusion
 
 Dictionaries are a powerful tool in Python, allowing you to store and manipulate key-value pairs. With the information provided in this readme, you should have a good understanding of how to create, access, modify, and remove key-value pairs in a dictionary, as well as how to loop through a dictionary.
