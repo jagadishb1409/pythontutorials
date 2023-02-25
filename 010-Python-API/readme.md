@@ -39,6 +39,25 @@ print(stdout.readlines())
 # close the connection
 ssh.close()
 ````
+Or if you have RSA key you can use this below code
+
+````python
+import paramiko
+
+ssh = paramiko.SSHClient()
+
+ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+
+key = paramiko.RSAKey.from_private_key_file('/path/key.pem')
+
+ssh.connect(hostname='<your-instance-ip-address>', username='<your-username>', pkey=key)
+
+stdin, stdout, stderr = ssh.exec_command('ls')
+
+print(stdout.readlines())
+
+ssh.close()
+````
 
 
 In this example, we first create an SSH client using the 'SSHClient()' function. We then automatically add the server's key using the 'set_missing_host_key_policy()' function. Next, we connect to the server using the 'connect()' function and passing in the server's hostname, username, and password. We then execute a command using the 'exec_command()' function and print the output using the 'readlines()' function. Finally, we close the connection using the 'close()' function.
