@@ -6,17 +6,38 @@ This repository, is a collection of tutorials and resources for learning the Pyt
 ## Table of Contents
 
 1. [Indentation](https://github.com/jagadishb1409/pythontutorials/tree/main/001-Indentation)
-2. [Data Types](https://github.com/jagadishb1409/pythontutorials/tree/main/002-Data-types)
+
+2. [Data Types](https://github.com/jagadishb1409/pythontutorials/tree/main/002-Data-types)  
+         - [Manipulating Strings](https://github.com/jagadishb1409/pythontutorials/tree/main/002-Data-types/Manipulating%20strings)
+
 3. [Functions](https://github.com/jagadishb1409/pythontutorials/tree/main/003-Functions)
+
 4. [Operators](https://github.com/jagadishb1409/pythontutorials/tree/main/004-Operators)
+
 5. [Control Flow](https://github.com/jagadishb1409/pythontutorials/tree/main/005-Control-flow)
-6. [Data Structures](https://github.com/jagadishb1409/pythontutorials/tree/main/006-Data-Structures)
+
+6. [Data Structures](https://github.com/jagadishb1409/pythontutorials/tree/main/006-Data-Structures)  
+         - [Working with Lists](https://github.com/jagadishb1409/pythontutorials/tree/main/006-Data-Structures/Working%20with%20Lists)  
+         - [Working with Sets](https://github.com/jagadishb1409/pythontutorials/tree/main/006-Data-Structures/Working%20with%20Sets)  
+         - [Working with Tuples](https://github.com/jagadishb1409/pythontutorials/tree/main/006-Data-Structures/Working%20with%20Tuples)  
+         - [Working with Dictionaries](https://github.com/jagadishb1409/pythontutorials/tree/main/006-Data-Structures/Working%20with%20dictionaries)  
+
 7. [Object-Oriented Programming](https://github.com/jagadishb1409/pythontutorials/tree/main/007-Object-Oriented-Programming)
+
 8. [Exception Handling](https://github.com/jagadishb1409/pythontutorials/tree/main/008-Exception-Handling)
+
 9. [Import Libraries](https://github.com/jagadishb1409/pythontutorials/tree/main/009-Import-Libraries)
+
 10. [Python API](https://github.com/jagadishb1409/pythontutorials/tree/main/010-Python-API)
+
 11. [Python Decorator](https://github.com/jagadishb1409/pythontutorials/tree/main/011-Python-Decorator)
-12. [File Operations](https://github.com/jagadishb1409/pythontutorials/tree/main/012-File-Operations)
+
+12. [File Operations](https://github.com/jagadishb1409/pythontutorials/tree/main/012-File-Operations)  
+         - [Excel sheet and csv](https://github.com/jagadishb1409/pythontutorials/tree/main/012-File-Operations/Excel-sheets-and-csv)  
+         - [Text fiels](https://github.com/jagadishb1409/pythontutorials/tree/main/012-File-Operations/text-files)  
+         
 13. [Threading](https://github.com/jagadishb1409/pythontutorials/tree/main/013-Threading)
+
 14. [Regular Expressions](https://github.com/jagadishb1409/pythontutorials/tree/main/014-Regular-Expressions)
+
 15. [Pythonic Code](https://github.com/jagadishb1409/pythontutorials/tree/main/015-Pythonic-Code)
