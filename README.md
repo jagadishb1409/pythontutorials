@@ -28,7 +28,8 @@ This repository, is a collection of tutorials and resources for learning the Pyt
 
 9. [Import Libraries](https://github.com/jagadishb1409/pythontutorials/tree/main/009-Import-Libraries)
 
-10. [Python API](https://github.com/jagadishb1409/pythontutorials/tree/main/010-Python-API)
+10. [Python API](https://github.com/jagadishb1409/pythontutorials/tree/main/010-Python-API)  
+         - [Working with JSON](https://github.com/jagadishb1409/pythontutorials/tree/main/010-Python-API/Working%20with%20JSON)
 
 11. [Python Decorator](https://github.com/jagadishb1409/pythontutorials/tree/main/011-Python-Decorator)
 
