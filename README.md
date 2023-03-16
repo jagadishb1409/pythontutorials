@@ -21,6 +21,7 @@ This repository, is a collection of tutorials and resources for learning the Pyt
          - [Working with Sets](https://github.com/jagadishb1409/pythontutorials/tree/main/006-Data-Structures/Working%20with%20Sets)  
          - [Working with Tuples](https://github.com/jagadishb1409/pythontutorials/tree/main/006-Data-Structures/Working%20with%20Tuples)  
          - [Working with Dictionaries](https://github.com/jagadishb1409/pythontutorials/tree/main/006-Data-Structures/Working%20with%20dictionaries)  
+         - [Working with Stacks](https://github.com/jagadishb1409/pythontutorials/tree/main/006-Data-Structures/Working%20with%20Stacks)
 
 7. [Object-Oriented Programming](https://github.com/jagadishb1409/pythontutorials/tree/main/007-Object-Oriented-Programming)
 
