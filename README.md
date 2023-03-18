@@ -43,3 +43,5 @@ This repository, is a collection of tutorials and resources for learning the Pyt
 14. [Regular Expressions](https://github.com/jagadishb1409/pythontutorials/tree/main/014-Regular-Expressions)
 
 15. [Pythonic Code](https://github.com/jagadishb1409/pythontutorials/tree/main/015-Pythonic-Code)
+
+16. Networking with Sockets and Requests
