@@ -44,4 +44,4 @@ This repository, is a collection of tutorials and resources for learning the Pyt
 
 15. [Pythonic Code](https://github.com/jagadishb1409/pythontutorials/tree/main/015-Pythonic-Code)
 
-16. Networking with Sockets and Requests
+16. [Networking with Sockets and Requests](https://github.com/jagadishb1409/pythontutorials/tree/main/016-Networking%20with%20Sockets%20and%20Requests)
