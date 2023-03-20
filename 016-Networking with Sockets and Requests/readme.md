@@ -18,7 +18,7 @@ import socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 ````
 
-In this example, we're creating a socket object s using the socket module. AF_INET specifies the address family (in this case, IPv4), and SOCK_STREAM specifies the type of socket (in this case, a TCP socket).
+In this example, we're creating a socket object 's' using the 'socket' module. AF_INET specifies the address family (in this case, IPv4), and SOCK_STREAM specifies the type of socket (in this case, a TCP socket).
 
 ### Connecting to a Remote Host
 
@@ -28,11 +28,11 @@ Once you have a socket object, you can use it to connect to a remote host. Here'
 s.connect(("www.example.com", 80))
 ````
 
-In this example, we're connecting to port 80 on www.example.com. Once the connection is established, you can send data over the socket.
+In this example, we're connecting to port 80 on 'www.example.com'. Once the connection is established, you can send data over the socket.
 
 ### Sending and Receiving Data
 
-To send data over a socket, you can use the sendall method. Here's an example:
+To send data over a socket, you can use the 'sendall' method. Here's an example:
 
 ````python
 s.sendall(b"Hello, world!")
@@ -46,7 +46,7 @@ To receive data from a socket, you can use the recv method. Here's an example:
 data = s.recv(1024)
 ````
 
-In this example, we're receiving up to 1024 bytes of data from the socket. The recv method returns the received data as bytes.
+In this example, we're receiving up to 1024 bytes of data from the socket. The 'recv' method returns the received data as bytes.
 
 ### Closing the Socket
 
@@ -78,7 +78,7 @@ while True:
 
 In this example, we're creating a TCP socket and binding it to port 8888 on all available network interfaces. We're then listening for incoming connections using the listen method.
 
-When a client connects, we accept the connection using the accept method. We then send the greeting message b'Hello, client!' to the client using the sendall method, and close the connection using the close method.
+When a client connects, we accept the connection using the 'accept' method. We then send the greeting message b'Hello, client!' to the client using the sendall method, and close the connection using the close method.
 
 
 ### Example: Simple Client (continued)
@@ -97,9 +97,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 print('Received', repr(data))
 ````
 
-In this example, we're creating a TCP socket and connecting it to the server at localhost:8888. We're then sending the message b'Hello, server!' to the server using the sendall method.
+In this example, we're creating a TCP socket and connecting it to the server at localhost:8888. We're then sending the message b'Hello, server!' to the server using the 'sendall' method.
 
-We're then receiving up to 1024 bytes of data from the server using the recv method, and printing the received data using the repr function.
+We're then receiving up to 1024 bytes of data from the server using the 'recv' method, and printing the received data using the 'repr' function.
 
 ## Requests
 
