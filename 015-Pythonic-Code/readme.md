@@ -84,6 +84,8 @@ def add(a, b=0):
     return a + b
 ````
 
+## Conclusion
+
 These are just a few examples of Pythonic code. The key principle of Pythonic code is to write code that is easy to read, easy to maintain, and uses the built-in features and idioms of the Python language. When writing code, try to think about how you can make it more Pythonic, and use the examples above as a guide.
 
 In addition to writing Pythonic code, it's also important to document your code properly so that others can understand it. One way to do this is to write a README file for your project that explains what the project does, how to install it, and how to use it. Here are some tips for writing a good README file:
@@ -94,5 +96,5 @@ In addition to writing Pythonic code, it's also important to document your code 
 
 3. Provide installation instructions: If your project requires any dependencies or special installation instructions, make sure to include them in the README file.
 
-4. Include examples: If your project has any usage examples
+4. Include examples: If your project has any usage examples.
 
