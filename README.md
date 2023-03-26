@@ -44,4 +44,8 @@ This repository, is a collection of tutorials and resources for learning the Pyt
 
 15. [Pythonic Code](https://github.com/jagadishb1409/pythontutorials/tree/main/015-Pythonic-Code)
 
-16. [Networking with Sockets and Requests](https://github.com/jagadishb1409/pythontutorials/tree/main/016-Networking%20with%20Sockets%20and%20Requests)
+16. [Networking with Sockets and Requests](https://github.com/jagadishb1409/pythontutorials/tree/main/016-Networking%20with%20Sockets%20and%20Requests)  
+
+17. [Argparse](https://github.com/jagadishb1409/pythontutorials/tree/main/017-Argparse)  
+
+18. [Interacting with DB](https://github.com/jagadishb1409/pythontutorials/tree/main/018-Interacting%20with%20DB)
