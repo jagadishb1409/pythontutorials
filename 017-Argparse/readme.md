@@ -23,11 +23,11 @@ args = parser.parse_args()
 print(args.num1 + args.num2)
 ````
 
-In this example, we first import the argparse module. We then create an instance of the ArgumentParser class and provide a brief description of the program.
+In this example, we first import the 'argparse' module. We then create an instance of the ArgumentParser class and provide a brief description of the program.
 
-We then add two positional arguments, num1 and num2, using the add_argument method. We specify that these arguments are integers and provide a brief help message.
+We then add two positional arguments, 'num1' and 'num2', using the 'add_argument' method. We specify that these arguments are integers and provide a brief help message.
 
-Finally, we call the parse_args method of the ArgumentParser instance to parse the arguments passed on the command line. We can then access the values of the num1 and num2 arguments using the args object returned by parse_args.
+Finally, we call the parse_args method of the ArgumentParser instance to parse the arguments passed on the command line. We can then access the values of the 'num1' and 'num2' arguments using the args object returned by parse_args.
 
 To run this program, we would execute it from the command line like this:
 
