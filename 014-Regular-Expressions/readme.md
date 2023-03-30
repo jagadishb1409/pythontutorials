@@ -25,7 +25,7 @@ else:
     print("Match not found")
 ````
 
-In the code above, we first import the re module. We then define a text variable that contains the string we want to search. We also define a pattern variable that contains the regular expression we want to match against the text. We use the search() function to search for the pattern in the text. The IGNORECASE flag is used to make the search case-insensitive.
+In the code above, we first import the re module. We then define a 'text' variable that contains the string we want to search. We also define a pattern variable that contains the regular expression we want to match against the text. We use the 'search()' function to search for the pattern in the text. The IGNORECASE flag is used to make the search case-insensitive.
 
 ## Matching multiple patterns
 
@@ -41,7 +41,7 @@ matches = re.findall(pattern, text)
 print(matches)
 ````
 
-In the code above, we define a regular expression pattern that matches phone numbers in the format (123) 456-7890. We use the findall() function to find all occurrences of the pattern in the text. The matches variable contains a list of all the phone numbers found in the text.
+In the code above, we define a regular expression pattern that matches phone numbers in the format (123) 456-7890. We use the 'findall()' function to find all occurrences of the pattern in the text. The matches variable contains a list of all the phone numbers found in the text.
 
 ## Replacing text
 
@@ -58,7 +58,7 @@ new_text = re.sub(pattern, replacement, text)
 print(new_text)
 ````
 
-In the code above, we define a regular expression pattern that matches the word "color". We also define a replacement variable that contains the word "colour". We use the sub() function to replace all occurrences of the pattern with the replacement text. The new_text variable contains the updated string.
+In the code above, we define a regular expression pattern that matches the word "color". We also define a replacement variable that contains the word "colour". We use the sub() function to replace all occurrences of the pattern with the replacement text. The 'new_text' variable contains the updated string.
 
 ## Conclusion
 
