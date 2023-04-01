@@ -3,7 +3,7 @@
 Python provides built-in functions and modules for performing various file operations. In this blog, we will discuss some of the commonly used file operations in Python.
 
 ## Opening and Closing a File
-Before we can read or write to a file, we need to open it first. We can use the open() function to open a file in Python. The open() function takes two arguments - the name of the file and the mode in which we want to open the file. The mode can be 'r' for reading, 'w' for writing, or 'a' for appending to an existing file.
+Before we can read or write to a file, we need to open it first. We can use the 'open()' function to open a file in Python. The open() function takes two arguments - the name of the file and the mode in which we want to open the file. The mode can be 'r' for reading, 'w' for writing, or 'a' for appending to an existing file.
 
 ````python
 # Open a file for reading
