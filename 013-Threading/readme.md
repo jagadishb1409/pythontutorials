@@ -85,7 +85,7 @@ for t in threads:
 print("All threads finished")
 ````
 
-In this example, we create a Semaphore object called semaphore with a maximum of 3 threads allowed to access at a time. Inside the worker function, we acquire the semaphore using the acquire method, do some work, and then release the semaphore using the release method. This ensures that only 3 threads can access the shared resource (in this case, the print statement) at the same time.
+In this example, we create a Semaphore object called 'semaphore' with a maximum of 3 threads allowed to access at a time. Inside the worker function, we acquire the semaphore using the 'acquire' method, do some work, and then release the semaphore using the 'release' method. This ensures that only 3 threads can access the shared resource (in this case, the print statement) at the same time.
 
 When we run this program, we will see the output:
 
