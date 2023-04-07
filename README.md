@@ -50,5 +50,5 @@ This repository, is a collection of tutorials and resources for learning the Pyt
 
 17. [Argparse](https://github.com/jagadishb1409/pythontutorials/tree/main/017-Argparse)  
 
-18. [Interacting with DB](https://github.com/jagadishb1409/pythontutorials/tree/main/018-Interacting%20with%20DB)
+18. [Interacting-with-DB](https://github.com/jagadishb1409/pythontutorials/tree/main/018-Interacting%20with%20DB)
 
