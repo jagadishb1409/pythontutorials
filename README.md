@@ -52,4 +52,5 @@ This repository, is a collection of tutorials and resources for learning the Pyt
 
 18. [Interacting-with-DB](https://github.com/jagadishb1409/pythontutorials/tree/main/018-Interacting%20with%20DB)
 
-19. [Python-Modules-in-detail](https://github.com/jagadishb1409/pythontutorials/tree/main/019-Python-Modules-in-detail)
+19. [Python-Modules-in-detail](https://github.com/jagadishb1409/pythontutorials/tree/main/019-Python-Modules-in-detail)  
+         - [Numpy](https://github.com/jagadishb1409/pythontutorials/tree/main/019-Python-Modules-in-detail/Numpy)
