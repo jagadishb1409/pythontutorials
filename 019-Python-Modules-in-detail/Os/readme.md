@@ -14,11 +14,11 @@ import os
 
 After importing the module, you can use its functions and attributes by calling them on the os object.
 
-## Working with the File System
+## 1. Working with the File System
 
 One of the main features of the os module is its ability to work with the file system. This includes functions for creating, deleting, and manipulating files and directories.
 
-### Creating Directories
+### i. Creating Directories
 
 To create a new directory, you can use the os.mkdir() function. This function takes a single argument, which is the name of the directory to create.
 
@@ -30,7 +30,7 @@ os.mkdir("new_dir")
 
 This will create a new directory named new_dir in the current working directory.
 
-### Changing Directories
+### ii. Changing Directories
 
 To change the current working directory, you can use the os.chdir() function. This function takes a single argument, which is the path of the directory to change to.
 
@@ -42,7 +42,7 @@ os.chdir("/path/to/new/dir")
 
 This will change the current working directory to the directory at /path/to/new/dir.
 
-### Listing Directory Contents
+### iii. Listing Directory Contents
 
 To list the contents of a directory, you can use the os.listdir() function. This function takes a single argument, which is the path of the directory to list.
 
@@ -57,7 +57,7 @@ for file in files:
 
 This will list all the files and directories in the directory at /path/to/dir.
 
-### Removing Files and Directories
+### iv. Removing Files and Directories
 
 To remove a file, you can use the os.remove() function. This function takes a single argument, which is the name of the file to remove.
 
@@ -79,11 +79,11 @@ os.rmdir("dir_to_remove")
 
 This will remove the directory named dir_to_remove from the current working directory.
 
-## Working with Processes
+## 2. Working with Processes
 
 The os module also provides functions for working with processes. This includes functions for launching new processes and retrieving information about running processes.
 
-### Launching Processes
+### i. Launching Processes
 
 To launch a new process, you can use the os.system() function. This function takes a single argument, which is the command to run.
 
@@ -95,7 +95,7 @@ os.system("ls -l")
 
 This will run the ls -l command and print the output to the console.
 
-### Retrieving Process Information
+### ii. Retrieving Process Information
 
 To retrieve information about running processes, you can use the os.getpid() function, which returns the current process ID.
 
