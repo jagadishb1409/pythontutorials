@@ -1,5 +1,9 @@
 # PyTorch for Beginners: A Comprehensive Guide
 
+<p align="center">
+  <img src="https://pytorch.org/tutorials/_static/img/thumbnails/cropped/profiler.png" alt="PyTorch's Logo">
+</p>
+
 ## Introduction
 
 PyTorch is a popular open-source deep learning framework that provides a seamless path from research prototyping to production deployment. It is widely used by researchers and practitioners for building and training neural networks. In this blog post, we will provide a beginner-friendly guide to PyTorch and cover the key concepts and functionalities that you need to know to get started.
