@@ -1,7 +1,7 @@
 # PyTorch for Beginners: A Comprehensive Guide
 
 <p align="center">
-  <img src="https://pytorch.org/tutorials/_static/img/thumbnails/cropped/profiler.png" alt="PyTorch's Logo">
+  <img src="https://pytorch.org/tutorials/_static/img/thumbnails/cropped/profiler.png" width="100" alt="PyTorch Logo">
 </p>
 
 ## Introduction
